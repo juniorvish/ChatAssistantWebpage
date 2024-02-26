@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatgpt clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-deepblue">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-4 gap-4">
+            <div id="chatHistory" class="col-span-1 bg-deepblue text-white p-4 overflow-auto">
+                <!-- Chat history goes here -->
+            </div>
+            <div class="col-span-3 p-4">
+                <div id="chatContainer" class="bg-white p-4 rounded shadow-md">
+                    <!-- Chat messages go here -->
+                </div>
+                <div class="flex mt-4">
+                    <input id="inputBox" type="text" class="flex-grow mr-2 p-2 rounded border border-deepblue" placeholder="Type your message here...">
+                    <button id="sendButton" class="bg-deepblue text-white p-2 rounded">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
